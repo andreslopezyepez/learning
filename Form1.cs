@@ -39,6 +39,7 @@ namespace Concurrency
         private void changeToGitByAnotherPerson()
         {
             Console.WriteLine("new log");
+            Console.WriteLine("new log 2");
         }
 
         private async void btnStart_Click(object sender, EventArgs e)
