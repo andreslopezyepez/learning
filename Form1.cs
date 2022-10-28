@@ -42,6 +42,11 @@ namespace Concurrency
             Console.WriteLine("new log 2");
         }
 
+        private void changeToGitByAnotherPersonSameBranch()
+        {
+            Console.WriteLine("new log");
+        }
+
         private async void btnStart_Click(object sender, EventArgs e)
         {
             loading.Show();
