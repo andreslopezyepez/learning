@@ -33,7 +33,7 @@ namespace Concurrency
         
         private void changeToGit()
         {
-            
+            Console.WriteLine("new log");
         }
 
         private async void btnStart_Click(object sender, EventArgs e)
