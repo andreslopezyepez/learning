@@ -29,23 +29,7 @@ namespace Concurrency
             _apiUrl = "https://localhost:7261";
             _httpClient = new HttpClient();
             InitializeComponent();
-        }
-        
-        private void changeToGit()
-        {
-            Console.WriteLine("new log");
-        }
-
-        private void changeToGitByAnotherPerson()
-        {
-            Console.WriteLine("new log");
-            Console.WriteLine("new log 2");
-        }
-
-        private void changeToGitByAnotherPersonSameBranch()
-        {
-            Console.WriteLine("new log");
-        }
+        }            
 
         private async void btnStart_Click(object sender, EventArgs e)
         {
