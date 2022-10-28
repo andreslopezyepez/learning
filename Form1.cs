@@ -31,6 +31,10 @@ namespace Concurrency
             InitializeComponent();
         }
         
+        private void changeToGit()
+        {
+            
+        }
 
         private async void btnStart_Click(object sender, EventArgs e)
         {
